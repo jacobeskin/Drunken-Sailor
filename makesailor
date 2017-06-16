@@ -1,0 +1,13 @@
+# -*-makefile-*-
+
+sailor.exe: mtfort90.o sailor.o
+	gfortran -g -o sailor.exe mtfort90.o sailor.o
+
+mtfort90.o: mtfort90.f90
+	gfortran -g -c mtfort90.f90
+
+sailor.o: sailor.f90
+	gfortran -g -c sailor.f90
+
+clean:
+	rm -f *.o

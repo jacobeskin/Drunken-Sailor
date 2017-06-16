@@ -1,0 +1,8 @@
+Drunken sailor random walk.
+
+Drunken sailor leaves bar 15 blocks west from an infinite long harbor. Sailor
+wonders randomly in a block city one block/minute, and as soon as he reaches the harbor at any point he is recovered by friends. Calculate average time it takes to reach the harbor.
+
+Compilation: $ make -f makesailor
+Running : ./sailor.exe 
+
